@@ -1,0 +1,23 @@
+{
+  "name": "api_mockjs",
+  "version": "1.0.0",
+  "description": "Api JsonServer para mockar dados de testes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch db.json --port 8080",
+    "gen": "json-server generate_fake.js --port 8080"
+  },
+  "keywords": [],
+  "author": "Heliomar Marques",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "api_mockjs"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "json-server": "^0.17.0",
+    "lodash": "^4.17.21"
+  }
+}
